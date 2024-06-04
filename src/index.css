@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Regular */
+@font-face {
+font-family: 'Clash Display';
+src: url('./assets/fonts/ClashDisplayRegular.otf') format('opentype');
+font-weight: normal;
+font-style: normal;
+}
+
+/* Medium */
+@font-face {
+font-family: 'Clash Display';
+src: url('./assets/fonts/ClashDisplayMedium.otf') format('opentype');
+font-weight: 500;
+font-style: normal;
+}
+
+/* Semibold */
+@font-face {
+font-family: 'Clash Display';
+src: url('./assets/fonts/ClashDisplaySemibold.otf') format('opentype');
+font-weight: 600;
+font-style: normal;
+}
+
+/* Bold */
+@font-face {
+font-family: 'Clash Display';
+src: url('./assets/fonts/ClashDisplayBold.otf') format('opentype');
+font-weight: bold;
+font-style: normal;
+}
+
+/* Light */
+@font-face {
+font-family: 'Clash Display';
+src: url('./assets/fonts/ClashDisplayLight.otf') format('opentype');
+font-weight: 300;
+font-style: normal;
+}
+
+/* Extralight */
+@font-face {
+font-family: 'Clash Display';
+src: url('./assets/fonts/ClashDisplayExtralight.otf') format('opentype');
+font-weight: 200;
+font-style: normal;
+}
