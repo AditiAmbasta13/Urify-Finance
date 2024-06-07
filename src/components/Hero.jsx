@@ -23,7 +23,7 @@ const Hero = () => {
                 <img src={Star} alt="star" className='absolute -left-24 -mt-16'/>
                 <h1 className="anim text-[64px] leading-[64px] font-extrabold text-black opacity-0 font-clash-display">Make The Best Financial Decisions</h1>
                 <img className="absolute -top-40 -z-10" src={Effect} alt="" />
-                <p className="anim text-lg text-gray-600 mt-4 opacity-0 font-clash-display">Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Socils Arcu Lorem Porttitor.</p>
+                <p className="anim text-lg text-gray-600 mt-4 opacity-0 font-clash-display">Cum Et Convallis Rissus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Socils Arcu Lorem Porttitor.</p>
                 <div className="anim opacity-0 flex mt-8 mx-16 md:mx-0">
                     <button className="btn flex items-center mr-4 px-9 py-3 bg-black text-white rounded-md hover:bg-gray-800 font-clash-display">
                         Get Started
