@@ -4,6 +4,8 @@ import gsap from 'gsap'
 import { useEffect } from 'react'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Star from '../assets/images/Star.png'
+import profile from '../assets/images/profile.png'
+import profile2 from '../assets/images/profile2.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -39,11 +41,11 @@ const Testimonials = () => {
               <p className='text-[20px] text-gray-500 mt-4'>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.”</p>
             </div>
             <div className='flex gap-3 mt-10 items-center'>
-              <div className='h-[50px] w-[50px] rounded-full bg-gray-200'></div>
-              <div className='h-[40px] w-[40px] rounded-full bg-gray-200'></div>
-              <div className='h-[40px] w-[40px] rounded-full bg-gray-200'></div>
-              <div className='h-[40px] w-[40px] rounded-full bg-gray-200'></div>
-              <div className='h-[40px] w-[40px] rounded-full bg-gray-200'></div>
+              <div className='h-[50px] w-[50px] rounded-full bg-gray-200'><img src={profile} alt="" /></div>
+              <div className='h-[40px] w-[40px] rounded-full bg-gray-200 opacity-50'><img src={profile2} alt="" /></div>
+              <div className='h-[40px] w-[40px] rounded-full bg-gray-200 opacity-50'><img src={profile} alt="" /></div>
+              <div className='h-[40px] w-[40px] rounded-full bg-gray-200 opacity-50'><img src={profile2} alt="" /></div>
+              <div className='h-[40px] w-[40px] rounded-full bg-gray-200 opacity-50'><img src={profile} alt="" /></div>
             </div>
           <h3 className='tanim opacity-0 font-clash-display mt-5 text-black text-[18px] font-bold'>Nick Jonas</h3>
           </div>
